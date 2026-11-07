@@ -42,3 +42,15 @@ h3 { font-size: 17px; margin: 18px 0 4px; }
 p, li { margin: 6px 0; }
 .date { color: var(--muted); font-size: 14px; }
 footer { text-align: center; color: var(--muted); font-size: 14px; }
+.get { margin: 18px 0 6px; }
+a.store {
+  display: inline-block;
+  padding: 10px 22px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--card);
+  font-weight: 600;
+  text-decoration: none;
+}
+a.store:hover { filter: brightness(1.08); }
+.note { color: var(--muted); font-size: 15px; margin: 6px 0 0; }
